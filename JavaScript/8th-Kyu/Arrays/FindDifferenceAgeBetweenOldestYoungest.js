@@ -15,3 +15,8 @@ function differenceInAges(ages) {
 
 console.log(differenceInAges([82, 15, 6, 38, 35]));
 console.log(differenceInAges([57, 99, 14, 32]));
+
+let agess = [82, 15, 6, 38, 35];
+console.log(...agess);
+console.log(Math.min(...agess));
+console.log(Math.max(...agess));
