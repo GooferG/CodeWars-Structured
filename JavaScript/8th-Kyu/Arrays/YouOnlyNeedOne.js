@@ -1,7 +1,7 @@
 function check(a, x) {
   // your code here
   let checkArray = a.indexOf(x);
-  return checkArray;
+  return checkArray !== -1;
 }
 
-console.log(check([66, 101], 66));
+console.log(check(["what", "a", "great", "kata"], "kat"));
