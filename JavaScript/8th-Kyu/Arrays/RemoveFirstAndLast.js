@@ -1,15 +1,17 @@
 function array(arr) {
   //Good luck
-  let newArrayNumber = arr.split("");
+  // return arr.split(",").slice(1, -1).join(' ') || null;
+  return arr.split(",").slice(1, -1).join(" ") || null;
+  //   let newArrayNumber = arr.split("");
 
-  let arrayNumber = arr.split(" ");
-  if (arr.length <= 3) {
-    return null;
-  } else if (arr.length > 3) {
-    let newArray = arr.slice(1, -1);
-    newArray = newArray.replace(/,/g, " ");
-    return newArray;
-  }
+  //   let arrayNumber = arr.split(" ");
+  //   if (arr.length <= 3) {
+  //     return null;
+  //   } else if (arr.length > 3) {
+  //     let newArray = arr.slice(1, -1);
+  //     newArray = newArray.replace(/,/g, " ");
+  //     return newArray;
+  //   }
 }
 
 console.log(array(""));
