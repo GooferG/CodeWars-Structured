@@ -1,6 +1,13 @@
 // If you can't sleep, just count sheep=
 
-const countSheep = (num) => {};
+var countSheep = function (num) {
+  //your code here
+  let countSheep = "";
+  for (let i = 1; i <= num; i++) {
+    countSheep += `${num} sheep...`;
+  }
+  return countSheep;
+};
 
 console.log(countSheep(0));
 console.log(countSheep(1));
