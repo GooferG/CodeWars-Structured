@@ -4,7 +4,7 @@ var countSheep = function (num) {
   //your code here
   let countSheep = "";
   for (let i = 1; i <= num; i++) {
-    countSheep += `${num} sheep...`;
+    countSheep += `${i} sheep...`;
   }
   return countSheep;
 };
