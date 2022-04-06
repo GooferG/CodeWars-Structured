@@ -18,3 +18,8 @@ function addLength(str) {
 
 console.log(addLength("apple ban"));
 console.log(addLength("you will win"));
+
+let arr = [1, 3, 3, 4, 5];
+arr.filter((item, index) => {
+  return arr.indexOf(item) == index;
+});
