@@ -11,6 +11,7 @@
 //   return x.map((item) => item * 2);
 // }
 
-const maps = (arr) => arr.map((x) => x * 2);
+// const maps = (arr) => arr.map((x) => x * 2);
+const maps = (arr) => arr.map((item) => item * 2);
 
 console.log(maps([2, 4, 6]));

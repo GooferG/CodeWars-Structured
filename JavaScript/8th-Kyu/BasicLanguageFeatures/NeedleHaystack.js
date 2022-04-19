@@ -26,6 +26,6 @@ console.log(
   findNeedle(["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"])
 );
 
-let arr = ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"];
+// let arr = ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"];
 
-console.log(arr.indexOf("needle"));
+// console.log(arr.indexOf("needle"));
