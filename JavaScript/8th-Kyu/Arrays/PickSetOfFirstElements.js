@@ -1,14 +1,7 @@
 // Pick A Set Of First Elements
 function first(arr, n) {
-  return n === undefined ? arr.slice(0, 1) : arr.slice(0, n);
-  //   if (n === undefined) {
-  //     return arr[0];
-  //   } else if (n === 0) {
-  //     return [];
-  //   } else if (n > 0) {
-  //     return arr.splice(0, n);
-  //   }
-  //   return arr;
+  //   return n === undefined ? arr.slice(0, 1) : arr.slice(0, n);
+  return arr.slice(0, n);
 }
 
 console.log(first(["a", "b", "c", "d", "e"]));
